@@ -1,0 +1,54 @@
+{% include "escambo_app/partials/head.html" %}
+
+{% load static %}
+
+<body>
+
+    <section>
+        <div class="container-sobre">
+
+            <div class="row">
+
+                <h4>EMPRESA</h4>
+
+                <div class="col-12 col-lg-6 d-flex align-items-center justify-content-center">
+                    <img src="{% static "images/empresa.jpeg" %}" alt="">
+                </div>
+                <div class="col-12 col-lg-6 d-flex align-items-center justify-content-center">
+                    <p>Somos uma empresa 100% nacional, voltada para o comércio eletrônico. Procuramos incentivar a
+                        troca de produtos sem o uso de dinheiro, como alternativa para facilitar negociações entre
+                        nossos clientes.
+                    <p>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <h4>POLÍTICA DE PRIVACIDADE</h4>
+
+
+                <div class="col-12 col-lg-6 d-flex align-items-center justify-content-center">
+                    <p>Procuramos atender a LGPD dentro de todos os seus aspectos, buscando preservar nossos clientes de fraudes e exposições de dados sem consentimento.
+                    <p>
+                </div>
+
+                <div class="col-12 col-lg-6 d-flex align-items-center justify-content-center">
+                    <img src="{% static "images/lgpd.jpeg" %}" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    {% include 'escambo_app/partials/footer.html' %}
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
